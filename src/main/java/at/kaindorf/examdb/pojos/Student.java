@@ -16,7 +16,7 @@ import java.util.List;
 @Data
 public class Student {
     @Id
-    private long studentId;
+    private Long studentId;
     @Column(length = 80)
     private String firstname;
     @Column(length = 80)
